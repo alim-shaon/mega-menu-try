@@ -1,0 +1,72 @@
+body {
+  background-color: aquamarine;
+}
+.dropdown {
+  position: static;
+}
+/* .dropdown-menu.show {
+  display: none !important;
+} */
+.dropdown-menu {
+  border: 0;
+}
+.dropdown:hover .dropdown-menu-1,
+.drop-first {
+  display: block;
+}
+.dropdown-2:hover .dropdown-menu-2 {
+  display: block;
+}
+
+.dropdown-menu-1 {
+  position: absolute !important;
+  width: 100vw;
+  height: 160px;
+  /* overflow-y: scroll; */
+  left: -100%;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+/* removing scrollbar but keeping Functionality */
+/* .dropdown-menu-1::-webkit-scrollbar {
+  display: none;
+} */
+.dropdown-2 {
+  /* position: relative; */
+  padding: 0.25rem 0.5rem;
+}
+/* use media query to adjust */
+.dropdown-menu-2 {
+  /* position: absolute !important; */
+  width: 80vw;
+  height: 200px;
+  left: 192px;
+  top: 0px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background-color: bisque;
+  /* z-index: 1001; */
+}
+
+/* different thinking */
+.trail-div {
+  background-color: cadetblue;
+  width: 100vw;
+}
+.drm-1 {
+  background-color: chartreuse;
+  width: 18vw;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.drm-2 {
+  position: absolute;
+  left: 250px;
+  top: 0px;
+  width: 81.8vw;
+  height: 180px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
